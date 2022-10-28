@@ -7,8 +7,7 @@ interface IProps {
 const Home: NextPage = (props: IProps) => {
   return (
     <div>
-      <p>everything is fine</p>
-      <p>loaded api env: {props.api}</p>
+      <audio src="rat_music.mp3" autoPlay loop controls></audio>
     </div>
   )
 }
