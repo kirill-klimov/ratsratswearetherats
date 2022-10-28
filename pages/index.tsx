@@ -7,6 +7,7 @@ interface IProps {
 const Home: NextPage = (props: IProps) => {
   return (
     <div>
+      <img src="rat.jpg" alt="rat" />
       <audio src="rat_music.mp3" autoPlay loop controls></audio>
     </div>
   )
